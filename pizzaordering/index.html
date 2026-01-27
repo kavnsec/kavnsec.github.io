@@ -1,1 +1,100 @@
+<!DOCTYPE html>
 
+<html lang="en">
+    <head>
+        <title>Pizza Ordering Form</title>
+    </head>
+    <body>
+        <h1>Pizza Ordering Form</h1>
+
+        <h2>Contact Information</h2>
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="phone">Phone: </label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" required>
+
+            <h2>Select Pizza Size</h2>
+            <label for="pizzasize">Pizza Size: </label>
+            <select id="pizzasize" name="pizzasize" required>
+                <option disabled selected value hidden>--Select Size--</option>
+                <option>XLarge</option>
+                <option>Large</option>
+                <option>Medium</option>
+            </select>
+        
+            <h2>Select Sauce</h2>
+
+            <fieldset>
+            <input type="radio" id="Marinara" name="sauce" required>
+            <label for="Marinara">Marinara</label>
+            <br>
+            <input type="radio" id="Ranch" name="sauce" required>
+            <label for="Ranch">Ranch</label>
+            <br>
+            <input type="radio" id="NoSauce" name="sauce" required>
+            <label for="NoSauce">No sauce</label>
+            </fieldset>
+            <br>
+
+            <h2>Select Toppings</h2>
+            
+            <input type="checkbox" name="pepperoni" id="pepperoni"><label for="pepperoni">Pepperoni</label>
+            <input type="checkbox" name="sausage" id="sausage"><label for="sausage">Sausage</label>
+            <br>
+            <input type="checkbox" name="mushroom" id="mushroom"><label for="mushroom">Mushroom</label>
+            <input type="checkbox" name="pineapple" id="pineapple"><label for="pineapple">Pineapple</label>
+            <br>
+            <input type="checkbox" name="peppers" id="peppers"><label for="peppers">Peppers</label>
+            <input type="checkbox" name="onions" id="onions"><label for="onions">Onions</label>
+
+            <h2>Additional Instructions</h2>
+            <label for="additional">
+            <textarea name="additional" id="additional">Additional instructions</textarea>
+            </label>
+
+            <br>
+            <label for="submitButton">
+            <input type="submit" name="submitButton" id="submitButton" value="Submit">
+            </label>
+        </form>
+
+        <br>
+        <table border="1">
+            <caption>List of My Favorite Games</caption>
+            <tr>
+                <th>Developer</th>
+                <th>Title</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Bethesda</td>
+                <td>TES V: Skyrim</td>
+                <td>2011</td>
+            </tr>
+            <tr>
+                <td>Fallout 4</td>
+                <td>2015</td>
+            </tr>
+            <tr>
+                <td>Finji</td>
+                <td>Night in the Woods</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>Digital Extremes</td>
+                <td>Warframe</td>
+                <td>2013</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    Count: 4
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
