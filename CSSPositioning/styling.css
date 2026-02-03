@@ -1,0 +1,153 @@
+header{
+    background-color: #241b2f;
+    color: #ffffffCC;
+    position:fixed;
+    width: 80%;
+    
+}
+
+header button {
+    background-color: #614D85;
+    color: #ffffffCC;
+    padding: 0.5em;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+header button:hover{
+    background-color: #ff7edb;
+}
+
+header nav {
+    background-color: #171520;
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#jumpMenu {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+    position: fixed;
+    overflow-x: hidden;
+    width: 20%;
+    height:100%;
+    background-color: #241b2f;
+    line-height: 2;
+}
+
+#jumpMenu a{
+    font-size: 2em;
+    color: #ff7edb;
+    text-decoration: none;
+}
+
+#jumpMenu a:hover {
+    color: #f97e72;
+}
+
+#jumpMenu h2 {
+    text-align: center;
+    color: #ffffffCC;
+    padding-top: 5%;
+}
+
+main {
+    padding-left: 20%;
+}
+
+#thanks {
+    position:fixed;
+    z-index: 5;
+    right: 2%;
+    bottom: 2%;
+    font-size: 32px;
+    text-align: right;
+    background-color: #171520;
+    color: #ffffffCC;
+    max-width: 30%;
+    padding: 1%;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2em;
+    line-height: 2;
+    color: white;
+    padding-bottom: 1em;
+}
+
+#container article {
+    width: 350px;
+    padding-bottom: 1.5%;
+    border-top: 5px solid;
+}
+
+#container a {
+    color: #ff7edb;
+    text-decoration: none;
+}
+
+#container a:hover{
+    color: #f97e72;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffffCC;
+    padding-bottom: 1em;
+    padding-top: 10%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    top:10%;
+    background-color: #262335;
+}
+
+html {
+    margin:0;
+    padding:0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    color: #ffffffCC;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    line-height: 2;
+}
+
+footer p{
+    padding-top: 1.5%;
+}
+
+footer div {
+    padding-bottom: 1.5%;
+}
+
+footer a {
+    color: #ff7edb;
+}
+
+footer a:hover{
+    color: #f97e72;
+}
