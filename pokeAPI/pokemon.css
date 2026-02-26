@@ -1,0 +1,28 @@
+label {
+    display:block;
+}
+
+#container {
+    background-color: white;
+}
+
+#data {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+html {
+    background-color: lightblue;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+select {
+    min-width: 10%;
+}
+
+#addTeam {
+    margin-top: 4%;
+}
